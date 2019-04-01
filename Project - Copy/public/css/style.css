@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+}
+
+
+body{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url(https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #000000;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #000000;
+	color: #fff;
+}
+
+ul li a{
+	background-color: #fff;
+	color: #000000;
+}
+ul li.active a{
+	background-color: #000000;
+	color: #fff;
+}
+
+
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+
+.title h1{
+	background-color: #fff;
+	color: #000000;
+	font-size: 60px;
+}
+
+.title h1:hover{
+	background-color: #000000;
+	color: #fff;
+}
+
+.button4{
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.button5{
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	background-color: #0000FF;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.btn:hover{
+	background-color: #000000;
+	color: #fff;
+}
+
+.wrap{
+	position: absolute;
+	width: 30%;
+	top: 18%;
+	left: 85%;
+	transform: translate(-50%,-50%);
+}
+.search{
+	width: 100%;
+	position: relative;
+}
+.searchterm{
+	float: left;
+	width: 100%;
+	border: 3px solid #00B4CC;
+	padding: 11px;
+	font-size: 17px;
+	outline: none;
+	transition: 1s all;
+}
+.searchterm:focus{
+	color: #00B4CC;
+	border: 3px solid #fff;
+}
+
+.searchbtn{
+	width: 70px;
+	height: 30px;
+	border: 1px solid #00B4CC;
+	background-color: #00B4CC;
+	color: #fff;
+	cursor: pointer;
+	font-size: 20px;
+
+}
+
+.footer-bottom{
+	position: absolute;
+	top: 90%;
+	left: 75%;
+	transform: translate(-50%,-50%);
+    color: #fff;
+    border: 1px solid #00B4CC;
+}
